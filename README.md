@@ -16,7 +16,7 @@ frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 frame.BorderSizePixel = 0
 Instance.new("UICorner", frame).CornerRadius = UDim.new(0,18)
 
--- TextBox para a Key
+-- TextBox
 local box = Instance.new("TextBox", frame)
 box.Size = UDim2.new(1, -30, 0, 40)
 box.Position = UDim2.new(0, 15, 0, 20)
@@ -26,7 +26,7 @@ box.BackgroundColor3 = Color3.fromRGB(20,20,20)
 box.BorderSizePixel = 0
 Instance.new("UICorner", box).CornerRadius = UDim.new(0,10)
 
--- Botão CHECK KEY
+-- CHECK KEY
 local check = Instance.new("TextButton", frame)
 check.Size = UDim2.new(1, -30, 0, 40)
 check.Position = UDim2.new(0, 15, 0, 75)
@@ -36,7 +36,7 @@ check.BackgroundColor3 = Color3.fromRGB(255,0,255)
 check.BorderSizePixel = 0
 Instance.new("UICorner", check).CornerRadius = UDim.new(0,10)
 
--- Botão GET KEY
+-- GET KEY
 local getkey = Instance.new("TextButton", frame)
 getkey.Size = UDim2.new(1, -30, 0, 40)
 getkey.Position = UDim2.new(0, 15, 0, 130)
@@ -54,7 +54,7 @@ status.BackgroundTransparency = 1
 status.TextColor3 = Color3.fromRGB(255,255,255)
 status.Text = ""
 
--- Botão TIKTOK
+-- TikTok
 local tiktok = Instance.new("TextButton", frame)
 tiktok.Size = UDim2.new(1, -30, 0, 40)
 tiktok.Position = UDim2.new(0, 15, 0, 225)
@@ -64,7 +64,7 @@ tiktok.BackgroundColor3 = Color3.fromRGB(255,0,255)
 tiktok.BorderSizePixel = 0
 Instance.new("UICorner", tiktok).CornerRadius = UDim.new(0,10)
 
--- Botão YOUTUBE
+-- YouTube
 local youtube = Instance.new("TextButton", frame)
 youtube.Size = UDim2.new(1, -30, 0, 40)
 youtube.Position = UDim2.new(0, 15, 0, 280)
@@ -80,7 +80,8 @@ check.MouseButton1Click:Connect(function()
     if box.Text == CorrectKey then
         status.Text = "KEY CORRETA"
         frame:Destroy()
-        -- coloque aqui o loadstring do hub
+        -- EXECUTAR SEU HUB
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/The-mr-red-black-scripts-owner-2/RED-BLACK-HUB-BROOCKHAVEN-V15/refs/heads/main/obfuscated.lua%20(6).txt"))()
     else
         status.Text = "KEY ERRADA"
     end
