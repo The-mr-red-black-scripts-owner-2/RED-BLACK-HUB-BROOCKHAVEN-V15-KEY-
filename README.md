@@ -1,5 +1,5 @@
 --== CONFIG ==--
-local CorrectKey = "RBH-FreeKey-broockhaven-9F7A2C6D-3E8B-41C2-A7F9-XX4G_2025-V1.0[✓]"
+local CorrectKey = "RBH-FreeKey-broockhaven-9F7A2C6D-3E8B-41C2-A7F9-XX4G_2025-V67.610[✓#&]"
 local KeyLink = "https://discord.gg/ffuFGauPdS"
 
 local TikTokLink = "https://www.tiktok.com/@the_mr_red_black_owner?_r=1&_t=ZM-925YlY0ADmq"
