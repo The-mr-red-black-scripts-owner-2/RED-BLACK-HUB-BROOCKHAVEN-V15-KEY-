@@ -1,5 +1,5 @@
 --== CONFIG ==--
-local CorrectKey = "RBH-FreeKey-broockhaven-67F7A2C6D-3E8B-41C2-A7F9-XX4G_2025-V67.610[✓#&]"
+local CorrectKey = "RBH-FreeKey-broockhaven-9A3F1C8E2-5D4B-49A7-B2E1-KP7M_2025-V67.610[✓#&]"
 local KeyLink = "https://discord.gg/ffuFGauPdS"
 
 local TikTokLink = "https://www.tiktok.com/@the_mr_red_black_owner?_r=1&_t=ZM-925YlY0ADmq"
@@ -81,7 +81,7 @@ check.MouseButton1Click:Connect(function()
         status.Text = "KEY CORRETA"
         frame:Destroy()
         -- EXECUTAR SEU HUB
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/The-mr-red-black-scripts-owner-2/RED-BLACK-HUB-BROOCKHAVEN-V15/refs/heads/main/obfuscated.lua%20(8).txt"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/The-mr-red-black-scripts-owner-2/RED-BLACK-HUB-BROOCKHAVEN-V15/refs/heads/main/obfuscated.lua%20(9).txt"))()
     else
         status.Text = "KEY ERRADA"
     end
