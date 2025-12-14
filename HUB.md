@@ -81,7 +81,7 @@ check.MouseButton1Click:Connect(function()
         status.Text = "KEY CORRETA"
         frame:Destroy()
         -- EXECUTAR SEU HUB
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/The-mr-red-black-scripts-owner-2/RED-BLACK-HUB-BROOCKHAVEN-V15/refs/heads/main/obfuscated.lua%20(9).txt"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/The-mr-red-black-scripts-owner-2/RED-BLACK-HUB-BROOCKHAVEN-V15/refs/heads/main/RED%20BLACK%20HUB.LUA"))()
     else
         status.Text = "KEY ERRADA"
     end
